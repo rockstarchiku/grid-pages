@@ -1,0 +1,49 @@
+*{
+  text-align: center;
+}
+.{
+  box-sizing: border-box;
+}
+.header{
+  background-color: black;
+  color: white;
+  height: 100px;
+
+}
+.third{
+  background-color: green;
+  color: white;
+  height: 100px;
+}
+.two-thirds{
+  background-color: red;
+  color: white;
+  height: 100px;
+}
+.quarter{
+  background-color: blue;
+  color: white;
+  height: 100px;
+}
+.half{
+  background-color: yellow;
+  color: white;
+  height: 100px;
+}
+[class*="JN-"]{
+  float:left;
+  padding: 0px;
+  /*border: 1px dashed;*/
+}
+.JN-1 {width: 8.33%;}
+.JN-2 {width: 16.66%;}
+.JN-3 {width: 25%;}
+.JN-4 {width: 33.33%;}
+.JN-5 {width: 41.66%;}
+.JN-6 {width: 50%;}
+.JN-7 {width: 58.33%;}
+.JN-8 {width: 66.66%;}
+.JN-9 {width: 75%;}
+.JN-10 {width: 83.33%;}
+.JN-11 {width: 91.66%;}
+.JN-12 {width: 100%;}
